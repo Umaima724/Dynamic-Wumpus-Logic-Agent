@@ -1,0 +1,22 @@
+.metrics-dashboard { background: linear-gradient(180deg, #0f0f23 0%, #151530 100%); border-radius: 16px; border: 1px solid #2a2a4a; padding: 20px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); }
+.metrics-header { display: flex; align-items: center; gap: 10px; padding-bottom: 16px; margin-bottom: 16px; border-bottom: 1px solid #2a2a4a; }
+.status-text { font-size: 14px; font-weight: 700; letter-spacing: 1px; font-family: 'JetBrains Mono', monospace; }
+.metrics-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; }
+.metric-card { background: rgba(255, 255, 255, 0.03); border-radius: 12px; padding: 14px; display: flex; align-items: center; gap: 12px; border: 1px solid rgba(255, 255, 255, 0.05); transition: all 0.2s ease; }
+.metric-card:hover { background: rgba(255, 255, 255, 0.06); transform: translateY(-1px); }
+.metric-card.highlight { background: rgba(96, 165, 250, 0.08); border-color: rgba(96, 165, 250, 0.15); }
+.metric-icon { display: flex; align-items: center; justify-content: center; width: 40px; height: 40px; border-radius: 10px; background: rgba(255, 255, 255, 0.05); flex-shrink: 0; }
+.metric-content { display: flex; flex-direction: column; gap: 2px; }
+.metric-value { font-size: 20px; font-weight: 700; color: #e2e8f0; font-family: 'JetBrains Mono', monospace; line-height: 1.2; }
+.metric-label { font-size: 11px; color: #6b6b8a; text-transform: uppercase; letter-spacing: 0.5px; font-weight: 500; }
+.percepts-card { grid-column: span 2; }
+.percepts-list { display: flex; gap: 8px; flex-wrap: wrap; }
+.percept-tag { padding: 4px 10px; border-radius: 20px; font-size: 11px; font-weight: 600; letter-spacing: 0.5px; }
+.percept-breeze { background: rgba(96, 165, 250, 0.15); color: #60a5fa; border: 1px solid rgba(96, 165, 250, 0.2); }
+.percept-stench { background: rgba(245, 158, 11, 0.15); color: #f59e0b; border: 1px solid rgba(245, 158, 11, 0.2); }
+.no-percepts { color: #4b5563; font-size: 13px; font-style: italic; }
+.mini-cell { width: 20px; height: 20px; border-radius: 4px; }
+.mini-cell.visited { background: linear-gradient(145deg, #1a4a2a, #0d3a1a); border: 1px solid rgba(74, 222, 128, 0.2); }
+.mini-cell.safe { background: linear-gradient(145deg, #1a3a2a, #0d2a1a); border: 1px solid rgba(34, 197, 94, 0.3); }
+.mini-cell.dangerous { background: linear-gradient(145deg, #4a1a1a, #3a0d0d); border: 1px solid rgba(239, 68, 68, 0.3); }
+.mini-cell.frontier { background: linear-gradient(145deg, #2a2a3e, #252538); border: 1px dashed rgba(167, 139, 250, 0.3);
