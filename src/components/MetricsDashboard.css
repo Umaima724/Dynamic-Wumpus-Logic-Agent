@@ -19,4 +19,8 @@
 .mini-cell.visited { background: linear-gradient(145deg, #1a4a2a, #0d3a1a); border: 1px solid rgba(74, 222, 128, 0.2); }
 .mini-cell.safe { background: linear-gradient(145deg, #1a3a2a, #0d2a1a); border: 1px solid rgba(34, 197, 94, 0.3); }
 .mini-cell.dangerous { background: linear-gradient(145deg, #4a1a1a, #3a0d0d); border: 1px solid rgba(239, 68, 68, 0.3); }
-.mini-cell.frontier { background: linear-gradient(145deg, #2a2a3e, #252538); border: 1px dashed rgba(167, 139, 250, 0.3);
+.mini-cell.frontier { background: linear-gradient(145deg, #2a2a3e, #252538); border: 1px dashed rgba(167, 139, 250, 0.3); }
+.progress-section { margin-top: 16px; padding-top: 16px; border-top: 1px solid #2a2a4a; }
+.progress-label { display: flex; justify-content: space-between; font-size: 12px; color: #6b6b8a; margin-bottom: 8px; font-weight: 500; }
+.progress-bar-bg { height: 8px; background: rgba(255, 255, 255, 0.05); border-radius: 4px; overflow: hidden; }
+.progress-bar-fill { height: 100%; background: linear-gradient(90deg, #22c55e, #4ade80); border-radius: 4px; transition: width 0.5s ease; }
